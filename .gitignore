@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.iml
+build/
+vcs.xml
+workspace.xml

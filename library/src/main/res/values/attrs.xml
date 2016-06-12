@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 仪表盘属性 -->
+    <declare-styleable name="Dashboard">
+        <!-- 用于设置仪表盘外层色块之间的缝隙 -->
+        <attr name="tickMarkSlitWidth" format="dimension" />
+        <!-- 用于设置仪表盘最大分数 -->
+        <attr name="maxScore" format="float" />
+        <!-- 用于设置仪表盘最小分数 -->
+        <attr name="minScore" format="float" />
+        <!-- 用于设置仪表盘当前分数 -->
+        <attr name="score" format="float" />
+        <!-- 用于设置仪表盘分数字体的颜色 -->
+        <attr name="scoreTextColor" format="color"/>
+        <!-- 用于设置仪表盘等级字体的大小 -->
+        <attr name="tickMarkTextSize" format="dimension"/>
+        <!-- 用于设置仪表盘等级字体的颜色 -->
+        <attr name="tickMarkTextColor" format="color"/>
+        <!-- 用于设置仪表盘等级文本，每个等级用','隔开（,为英文字符）。例如：较差,中等,良好 -->
+        <attr name="tickMarkTextArray" format="string"/>
+        <!-- 用于设置仪表盘外层色块的总数 -->
+        <attr name="tickMarkCount" format="integer"/>
+        <!-- 用于设置仪表盘指示器颜色 -->
+        <attr name="indicatorColor" format="color"/>
+        <attr name="bottomText" format="string"/>
+        <attr name="bottomTextSize" format="dimension"/>
+        <attr name="bottomTextColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <com.zly.dashboard.lib.Dashboard
+        android:id="@+id/id_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bottomText="我的积分"
+        app:scoreTextColor="@color/colorAccent"
+        app:indicatorColor="@color/colorAccent"
+        app:bottomTextSize="15sp"/>
+
+    <EditText
+        android:id="@+id/id_et_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/id_et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setScore"
+        android:text="set score"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setMarkColors"
+        android:text="set mark color"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setText"
+        android:text="set text"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:text="reset"/>
+
+</LinearLayout>
